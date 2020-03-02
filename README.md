@@ -8,5 +8,5 @@ python ffmpegframeextractor.py -i /home/administrator/Docs/video/WA0012.mp4 -o /
 
 ## Arguments
 -i for video path<br />
--o generate frames <br />
--f frames per second<br />
+-o generate frames path <br />
+-f frames per second e.g. 1 or 2<br />
