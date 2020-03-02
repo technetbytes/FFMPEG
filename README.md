@@ -1,5 +1,21 @@
-# FFMPEG
-Get Video frames using ffmpeg
+# Extract frames
+Get frames as an image from video files using ffmpeg library.
+
+## Assumption
+ffmpeg is install on the machine.
+
+## Installing FFMPEG for Ubuntu
+Firstly, you need to install the "libav-tools" package:
+```
+$ sudo apt-get install libav-tools
+```
+
+Then, install FFMPEG by using PPA:
+```
+$ sudo add-apt-repository ppa:mc3man/trusty-media
+$ sudo apt-get update
+$ sudo apt-get install ffmpeg gstreamer0.10-ffmpeg
+```
 
 ## How To Use
 ```
